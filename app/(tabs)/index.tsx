@@ -12,7 +12,7 @@ export default function Index() {
         <ImageViewer imgSource={PlaceholderImage} />
       </View>
       <View style={styles.footerContainer}>
-        <Button label="Choose a photo" /> {/*Escolha esta foto */}
+        <Button label="Choose a photo" theme="primary" /> {/*Escolha esta foto */}
         <Button label="Use this photo" /> {/*Utilize esta foto */}
       </View>
     </View>
