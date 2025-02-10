@@ -28,7 +28,19 @@ function TabsLayout() {
           ),
         }}
       />
-      <Tabs.Screen name="about" options={{ title: "About" }} />
+      <Tabs.Screen
+        name="about"
+        options={{
+          title: "About",
+          tabBarIcon: ({ color, focused }) => (
+            <Ionicons
+              name={focused ? "information-circle" : "information-outline"}
+              color={color}
+              size={24}
+            />
+          ),
+        }}
+      />
     </Tabs>
   );
 }
